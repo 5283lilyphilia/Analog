@@ -1,0 +1,111 @@
+html, body{
+    margin: 0;
+    padding: 0; 
+    width: 100%;
+    background: black;
+    background-position: center;
+    background-size: cover;
+    max-width: 940px;
+	min-width: 720px;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: 200px;
+    margin-top: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+   width: 300px;
+   padding-top: 10px;
+   float: left;
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 220px;
+    padding-top: 20px;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+    white-space: nowrap;
+    padding-right: 20px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: brown;
+}
+
+a:hover,a.on{
+    color: brown;
+}
+
+.search{
+    width: 330px;
+    float: right;
+    margin-right: -330px;
+}
+
+.srch{
+    font-family: 'Times New Roman';
+    width: 180px;
+    height: 30px;
+    margin-top: 48px;
+    border-radius: 8px;
+}
+
+.btn{
+    width: 70px;
+    transition: 0.1s ease-in-out;
+}
+
+.btn:hover{
+    background-color: black;
+    color: white;
+}
+
+p img { 
+	width: 1000px;
+    height: 430px;
+	margin: 120px auto 20px 230px;
+    border-radius: 30px;
+}
+h3 {
+    font-weight: normal;
+    font-family: serif;
+    font-size: 18px;
+    color: white;
+    margin-top: 0;
+    margin-left: 380px;
+}
+
+
+
+
